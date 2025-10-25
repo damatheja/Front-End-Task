@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1::after{
+            content:" Good Morning";
+            color: burlywood;
+        }
+        p::before{
+            content:"Welcome to ";
+            color: cadetblue;
+        }
+        h1::first-letter{
+            color:crimson;
+        }
+        h1::first-line{
+            background-color:azure;
+        }
+        li::marker{
+            content: "✯";
+        }
+        li::selection{
+            color:cadetblue;
+            background-color:lavender;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Hi</h1>
+    <p>Web Tech Class</p>
+    <ol>
+        <li>Mango</li>
+        <li>Orange</li>
+        <li>Watermelon</li>
+        <li>Grapes</li>
+    </ol>
+</body>
+</html>
