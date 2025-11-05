@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .img-box{
+            height: 300px;
+            width: 300px;
+            border: 2px solid rgb(22, 21, 21);
+            overflow:hidden;
+            box-shadow: 5px 5px 15px black;
+            border-radius: 5px;
+        }
+        body{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 600px;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            transition: transform 1.5s ease;
+        }
+        img:hover{
+            transform: scale(1.5);
+    
+        }
+    </style>
+</head>
+<body>
+    <div class="img-box">
+        <img src="https://photosrush.com/wp-content/uploads/cute-cartoon-dp-doraemon-3.jpg" alt="">
+    </div>
+    <div class="img-box">
+        <img src="https://i.pinimg.com/564x/3b/77/22/3b7722b15c6aec96efe442819277890c.jpg" alt="">
+    </div>
+    <div class="img-box">
+        <img src="https://images-ng.pixai.art/images/orig/2c819c81-7c23-46fc-8cdd-5c0489b3496a" alt="">
+    </div>
+</body>
+</html>
