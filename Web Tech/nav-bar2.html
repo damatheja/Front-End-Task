@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .nav-bar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: powderblue;
+            height: 75px;
+        }
+        .left a{
+            text-decoration: none;
+            padding: 5px;
+            color: black;
+            font-weight: 500;
+        }
+
+       button{
+        height: 40px;
+        width: 80px;
+        margin: 0 10px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: transparent;
+        color: rgb(46, 176, 193) ;
+        border: 1px solid rgb(46, 176, 193);
+       }
+       input{
+        height: 20px;
+        border-radius: 5px;
+        border: transparent;
+        padding: 10px;
+        border: 1px solid grey;
+       }
+    </style>
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="left">
+            <a href="#">Brand</a>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Products</a>
+        </div>
+        <div class="right">
+            <input type="text" placeholder="Search">
+            <button>Search</button>
+        </div>
+    </div>
+</body>
+</html> 
