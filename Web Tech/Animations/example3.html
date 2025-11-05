@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            height: 600px;
+            
+        }
+        .ball{
+            height: 200px;
+            width: 200px;
+            animation: bounce 3s ease infinite;
+            padding-right: 90px;
+        }
+        
+        @keyframes bounce{
+            0%{
+                transform: translateY(0);
+            }
+            50%{
+                transform: translateY(500px);
+            }
+            100%{
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="ball">
+        <img height="200px" width="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReAZcVJskdBeaB2mrR4CvpmfB7DuhmZfbt7wfqA13xhTbt8PK2VDXGtlV4z6wd2ukKJ7Q&usqp=CAU" alt="">
+    </div>
+    <div class="ball">
+        <img height="200px" width="200px" src="https://t4.ftcdn.net/jpg/05/75/13/49/360_F_575134994_JuMssKy5nM4U71MMwxIaqt7QAhLom5jh.jpg" alt="">
+    </div>
+</body>
+</html>
